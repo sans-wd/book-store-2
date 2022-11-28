@@ -1,0 +1,397 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+.alcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spbtw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarr {
+  margin-top: 30px;
+}
+.back {
+  margin-top: 20px;
+}
+.input_menu {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Primary */
+
+  color: #6c5dd3;
+  border: 1px solid #e1e1e1;
+  border-radius: 14px 0px 0px 14px;
+  background-color: transparent;
+}
+.input_menu i {
+  margin: 0 10px;
+}
+.input_search {
+  color: #6c5dd3;
+  border: 1px solid #e1e1e1;
+  border-radius: 0px 14px 14px 0px;
+  background-color: transparent;
+}
+.input_search i {
+  margin: 0 10px;
+}
+.mypont {
+  cursor: pointer;
+}
+.myinput {
+  width: 100%;
+}
+.input_part {
+  width: 50%;
+}
+.firstcard button {
+  margin-top: 15px;
+}
+.navbuttons button:first-child {
+  background: #f0eeff;
+  border-radius: 14px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #6c5dd3;
+}
+
+.navbuttons button:last-child i {
+  margin-right: 10px;
+}
+.navbuttons button:last-child {
+  background: #6c5dd3;
+  box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+  border-radius: 14px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.myburger {
+  display: none;
+}
+.burbut1 {
+  background: #f0eeff;
+  border-radius: 14px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #6c5dd3;
+  margin-top: 10px;
+}
+
+.burbut2 i {
+  margin-right: 10px;
+}
+.burbut2 {
+  background: #6c5dd3;
+  box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+  border-radius: 14px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.firstcard {
+  background-image: url(../img/remake.back.png);
+  padding: 80px;
+  background-size: cover;
+  border-radius: 24px;
+  min-height: 494px;
+}
+.firstcard p {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 4px;
+
+  /* Primary */
+
+  color: #6c5dd3;
+}
+.firstcard h5 {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+.firstcard h5 span {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+.firstcard h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+.firstcard button:first-of-type {
+  background: #6c5dd3;
+  box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+  border-radius: 14px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+
+  /* White */
+
+  color: #ffffff;
+}
+.firstcard button:first-of-type i {
+  margin-left: 15px;
+}
+.firstcard button:last-of-type {
+  border: 1px solid #aaaaaa;
+  border-radius: 14px;
+  background-color: transparent;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+.secardd {
+  background: #9c9c9c;
+  border-radius: 24px;
+  text-align: center;
+  min-height: 494px;
+}
+.secardd span:first-of-type {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 90px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+.secardd h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  margin-top: -7px;
+}
+.kvgrey {
+  width: 206px;
+  height: 256.91px;
+
+  background: #c4c4c4;
+  border: 2px solid #ffffff;
+  /* Shadow-03 */
+
+  box-shadow: 0px 25px 33px rgba(255, 255, 255, 0.25);
+  border-radius: 14px;
+}
+.secardd h4 {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37px;
+
+  /* White */
+
+  color: #ffffff;
+}
+.secardd h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.secardd button {
+  margin-bottom: 9px;
+}
+.secardd h2:first-child {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  text-decoration-line: line-through;
+
+  /* Grey-01 */
+  display: inline-flex;
+  color: #aaaaaa;
+  margin-bottom: -2px;
+}
+.secardd h2:last-child {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: -2px;
+  /* DarkPurple */
+
+  color: #11142d;
+  display: inline-flex;
+}
+
+.myfbut {
+  background: #f0eeff;
+  border-radius: 10px;
+  border-color: transparent;
+  color: #6c5dd3;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.fcontent h1 {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+
+.fcontent p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* Grey-01 */
+
+  color: #aaaaaa;
+}
+
+.cardorange {
+  width: 100%;
+  min-height: 290px;
+  background-color: #fff6ef;
+  background-image: url(../img/MaskGroup.png);
+  background-size: cover;
+  border-radius: 14px;
+  padding: 20px;
+}
+.bluecar {
+  background-color: #e6f1fc;
+  background-image: url(../img/MaskGroup\(1\).png);
+}
+.cardorange h6 {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 67px;
+
+  /* DarkPurple */
+}
+.cardorange p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* DarkPurple */
+
+  color: #11142d;
+}
+.grey {
+  background: #c4c4c4;
+  width: 100%;
+  height: 154.6px;
+  border: 4px solid #ffffff;
+  border-radius: 14px;
+}
+
+@media only screen and (max-width: 992px) {
+  .input_part {
+    display: none;
+  }
+  .myburger {
+    display: block;
+  }
+  .navbuttons {
+    display: none;
+  }
+  .kvgrey {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .secardd span:first-of-type {
+    font-family: "Cairo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 90px;
+    text-align: center;
+
+    /* White */
+
+    color: #ffffff;
+  }
+  .kvgrey {
+    width: 150px;
+  }
+}
